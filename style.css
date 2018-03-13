@@ -1,0 +1,33 @@
+
+.textoInicial {
+    margin: 25% 0 10%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.botoesInicio {
+    margin: 30% 0 10%; 
+}   
+
+.text-center{
+    margin: 13% 0 13%; 
+} 
+
+.botao1 {
+    margin: -13% 30% 13%;
+
+}
+
+.botao2 {
+    margin: 10% 30% 10%;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 20% 16%;
+    font-size: 150%;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    margin-left: -10%
+}
