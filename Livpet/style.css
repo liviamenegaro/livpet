@@ -1,4 +1,16 @@
 
+/* GERAL */
+
+.navbar-toggle {
+    float: left !important;
+}
+
+.navbar-brand {
+    margin-left: 23% !important;
+}
+
+/* INICIO */
+
 .textoInicial {
     margin: 25% 0 10%;
     border-style: solid;
@@ -8,26 +20,82 @@
 }
 
 .botoesInicio {
-    margin: 30% 0 10%; 
-}   
+    margin: 30% 0 10%;
+}
 
-.text-center{
-    margin: 13% 0 13%; 
-} 
+.text-center {
+    margin: 13% 0 13%;
+}
 
 .botao1 {
     margin: -13% 30% 13%;
-
 }
 
 .botao2 {
     margin: 10% 30% 10%;
 }
 
-.btn-group-lg>.btn, .btn-lg {
+.btn-group-lg>.btn,
+.btn-lg {
     padding: 20% 16%;
     font-size: 150%;
     line-height: 1.3333333;
     border-radius: 6px;
     margin-left: -10%
+}
+
+/* REGISTRO */
+
+#enviar {
+    margin-left: 30%;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    padding: 15px 30px;
+}
+
+.menu1 {
+    top: 7%;
+    background: #222;
+    position: absolute;
+    z-index: 1;
+    width: 55%;
+    height: 50%;
+    display: none;
+}
+
+.btn-primary {
+    background-color: #222;
+    border-color: #222;
+}
+
+.glyphicon-search {
+    color: #9d9d9d;
+    top: 16px;
+    left: 30%;
+}
+
+a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.escolha,
+.registro,
+.colaboradores {
+    margin-top: 30%;
+    display: inline-block;
+}
+
+.sub {
+    font-size: 15px;
+    display: table;
+    margin-left: 13px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form{
+    margin-top: 100px;
 }
